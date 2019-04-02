@@ -49,7 +49,7 @@ public class BinarySearchTree{
         System.out.println("array Size = "+arr.length);
         //BST(array,start_index,end_index, key);
         int result= BST(arr,0,arr.length-1, key);
-        System.out.println("array result = "+result);
+        System.out.println("array result index = "+result);
      }
 }
 
@@ -75,7 +75,4 @@ in function start : 1 end : 1
 mid = 1 values : 3 _key 3
 
 
-array result = 1
-
-
-array result = 1
+array result index = 1
