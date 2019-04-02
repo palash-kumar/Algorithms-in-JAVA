@@ -1,0 +1,21 @@
+public class AddArrayOfIntegerRecursively{
+
+    static int addArray(int arr[], int N){
+        if(N<=0)
+            return 0;
+            
+        return (addArray(arr, N-1)+arr[N-1]);
+    }
+     public static void main(String []args){
+        
+        int arr[]={2,4,8,16,32};
+        System.out.println("A[] = "+arr.length);
+        int result = addArray(arr,arr.length);
+        System.out.println("result = "+result);
+     }
+}
+
+OUTPUT:
+
+A[] = 5
+result = 62
